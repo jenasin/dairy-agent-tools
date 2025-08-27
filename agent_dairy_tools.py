@@ -301,7 +301,6 @@ def run_agent(user_prompt: str, csv_path: Optional[str], model: str = "gpt-5") -
         messages=messages,
         tools=tools,
         tool_choice="auto",
-        temperature=0.2,
     )
     msg = first.choices[0].message
 
@@ -330,7 +329,6 @@ def run_agent(user_prompt: str, csv_path: Optional[str], model: str = "gpt-5") -
         second = client.chat.completions.create(
             model=model,
             messages=messages,
-            temperature=0.2,
         )
         return (second.choices[0].message.content or "").strip()
 
