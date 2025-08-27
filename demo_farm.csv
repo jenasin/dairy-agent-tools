@@ -1,0 +1,3 @@
+date,cow_id,milk_kg,fat_pct,protein_pct,feed_kg_dm,scc,bw_kg,parity,dim
+2025-08-01,101,28.4,4.1,3.35,20.2,150000,620,2,1
+2025-08-02,101,27.9,4.0,3.32,20.1,160000,620,2,2
